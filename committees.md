@@ -54,7 +54,7 @@ Filter through committees in the House and Senate. Filter by any [fields below](
 
 **Disabling pagination**
 
-You can turn off pagination for requests to `/committees`.
+You can turn off pagination for requests to `/committees`. Note that if the "per_page" operator is included, it must be the first operator in the query.
 
 {% highlight text %}
 /committees?per_page=all
